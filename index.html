@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Sneakers</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js" defer></script>
+    <style>
+        /* Additional inline styles for demo purposes */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        #navbar {
+            display: flex;
+            justify-content: center;
+        }
+        #navbar ul {
+            list-style-type: none;
+            display: flex;
+        }
+        #navbar ul li {
+            margin: 0 10px;
+        }
+        #navbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 15px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        #navbar ul li a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .sneaker {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .sneaker-item {
+            width: 300px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .sneaker-item img {
+            width: 100%;
+            height: auto;
+        }
+        .sneaker-item .info {
+            padding: 10px;
+        }
+        .sneaker-item h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .sneaker-item p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nike Sneakers</h1>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#air-max">Air Max</a></li>
+            <li><a href="#air-force">Air Force</a></li>
+            <li><a href="#jordan">Jordan</a></li>
+            <li><a href="#react">React</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <section id="air-max" class="sneaker">
+        <div class="sneaker-item">
+            <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/awjogtdnqxniqqk0wpgf/air-max-270-shoes-2V5C4p.png" alt="Nike Air Max 270">
+            <div class="info">
+                <h3>Nike Air Max 270</h3>
+                <p>The Nike Air Max 270 is inspired by two icons of big Air: Air Max 180 and Air Max 93. It features Nike's biggest heel Air unit yet for a super-soft ride that feels as impossible as it looks.</p>
+            </div>
+        </div>
+        <div class="sneaker-item">
+            <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/56ada3f3-dd4f-4945-ba48-f709ce03d9a3/custom-nike-air-max-97-shoes-by-you.png" alt="Nike Air Max 97">
+            <div class="info">
+                <h3>Nike Air Max 97</h3>
+                <p>The Nike Air Max 97 keeps a sneaker icon going strong with the same design details that made it famous: water-ripple lines, reflective piping and full-length Max Air cushioning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="air-force" class="sneaker">
+        <div class="sneaker-item">
+            <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2eff461f-f3ac-4285-9c6a-2f22173aac42/custom-nike-air-force-1-low-by-you.png" alt="Nike Air Force 1">
+            <div class="info">
+                <h3>Nike Air Force 1</h3>
+                <p>The Nike Air Force 1 is a classic low-top sneaker featuring a leather and textile upper for premium comfort and a Nike Air unit for cushioning and impact protection.</p>
+            </div>
+        </div>
+        <div class="sneaker-item">
+            <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/5de54772-b44b-4170-8ae6-214a0b131afc/air-force-1-shadow-shoes-DmvLlC.png" alt="Nike Air Force 1 Shadow">
+            <div class="info">
+                <h3>Nike Air Force 1 Shadow</h3>
+                <p>The Nike Air Force 1 Shadow puts a playful twist on the classic AF1 with double the Swoosh and overlays for added depth and dimension.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional sections for other sneaker types (e.g., Jordan, React) -->
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Nike. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
